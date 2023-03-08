@@ -1,0 +1,8 @@
+---- GPIO_InitTypeDef Matches (7 in 2 files) ----
+stm32f4xx_gpio.c (Libraries\STM32F4xx_StdPeriph_Driver\src) line 198 :   * @param  GPIO_InitStruct: pointer to a GPIO_InitTypeDef structure that contains
+stm32f4xx_gpio.c (Libraries\STM32F4xx_StdPeriph_Driver\src) line 202 : void GPIO_Init(GPIO_TypeDef* GPIOx, GPIO_InitTypeDef* GPIO_InitStruct)
+stm32f4xx_gpio.c (Libraries\STM32F4xx_StdPeriph_Driver\src) line 251 :   * @param  GPIO_InitStruct : pointer to a GPIO_InitTypeDef structure which will be initialized.
+stm32f4xx_gpio.c (Libraries\STM32F4xx_StdPeriph_Driver\src) line 254 : void GPIO_StructInit(GPIO_InitTypeDef* GPIO_InitStruct)
+{anonGPIO_InitTypeDef} in stm32f4xx_gpio.h (Libraries\STM32F4xx_StdPeriph_Driver\inc) : }GPIO_InitTypeDef;
+stm32f4xx_gpio.h (Libraries\STM32F4xx_StdPeriph_Driver\inc) line 497 : void GPIO_Init(GPIO_TypeDef* GPIOx, GPIO_InitTypeDef* GPIO_InitStruct);
+stm32f4xx_gpio.h (Libraries\STM32F4xx_StdPeriph_Driver\inc) line 498 : void GPIO_StructInit(GPIO_InitTypeDef* GPIO_InitStruct);
