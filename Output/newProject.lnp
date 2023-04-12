@@ -42,6 +42,7 @@
 ".\output\system_stm32f4xx.o"
 ".\output\mian.o"
 ".\output\bsp_led.o"
+".\output\bsp_key.o"
 --library_type=microlib --strict --scatter ".\Output\newProject.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

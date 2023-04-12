@@ -38,3 +38,4 @@
 .\output\mian.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h
 .\output\mian.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
 .\output\mian.o: User\bsp_led.h
+.\output\mian.o: User\bsp_key.h
