@@ -43,6 +43,8 @@
 ".\output\mian.o"
 ".\output\bsp_led.o"
 ".\output\bsp_key.o"
+".\output\bsp_exit.o"
+".\output\bsp.o"
 --library_type=microlib --strict --scatter ".\Output\newProject.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

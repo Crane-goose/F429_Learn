@@ -1,12 +1,12 @@
 .\output\bsp_key.o: User\bsp_key.c
-.\output\bsp_key.o: User\bsp_key.h
+.\output\bsp_key.o: User\bsp.h
 .\output\bsp_key.o: .\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\output\bsp_key.o: .\Libraries\CMSIS\Include\core_cm4.h
 .\output\bsp_key.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\bsp_key.o: .\Libraries\CMSIS\Include\core_cmInstr.h
 .\output\bsp_key.o: .\Libraries\CMSIS\Include\core_cmFunc.h
 .\output\bsp_key.o: .\Libraries\CMSIS\Include\core_cmSimd.h
-.\output\bsp_key.o: .\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\output\bsp_key.o: D:\Software\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 .\output\bsp_key.o: .\User\stm32f4xx_conf.h
 .\output\bsp_key.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 .\output\bsp_key.o: .\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
@@ -38,3 +38,6 @@
 .\output\bsp_key.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h
 .\output\bsp_key.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h
 .\output\bsp_key.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
+.\output\bsp_key.o: User\bsp_exit.h
+.\output\bsp_key.o: User\bsp_key.h
+.\output\bsp_key.o: User\bsp_led.h

@@ -5,7 +5,7 @@
 .\output\system_stm32f4xx.o: .\Libraries\CMSIS\Include\core_cmInstr.h
 .\output\system_stm32f4xx.o: .\Libraries\CMSIS\Include\core_cmFunc.h
 .\output\system_stm32f4xx.o: .\Libraries\CMSIS\Include\core_cmSimd.h
-.\output\system_stm32f4xx.o: .\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\output\system_stm32f4xx.o: D:\Software\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 .\output\system_stm32f4xx.o: .\User\stm32f4xx_conf.h
 .\output\system_stm32f4xx.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 .\output\system_stm32f4xx.o: .\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h

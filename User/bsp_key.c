@@ -1,4 +1,4 @@
-#include "bsp_key.h"
+#include "bsp.h"
 
 //按键引脚初始化
 void Key_GPIO_Config(void)
@@ -14,7 +14,10 @@ void Key_GPIO_Config(void)
 	GPIO_InitKey.GPIO_PuPd = GPIO_PuPd_NOPULL;
 
 	GPIO_Init(GPIOA, &GPIO_InitKey);
+
 }
+
+
 
 uint8_t Key_Detect(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
 {
@@ -25,3 +28,12 @@ uint8_t Key_Detect(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
 	else
 		return 0;
 }
+
+void EXTI0_IRQHandler(void)
+{
+	if(EXTI_GetITStatus(EXTI_Line0) != RESET) {
+		GPIO_ToggleBits(GPIOH, GPIO_Pin_12);
+		EXTI_ClearFlag(EXTI_Line0);
+	}
+}
+

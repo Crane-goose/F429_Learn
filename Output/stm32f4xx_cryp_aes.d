@@ -6,7 +6,7 @@
 .\output\stm32f4xx_cryp_aes.o: .\Libraries\CMSIS\Include\core_cmInstr.h
 .\output\stm32f4xx_cryp_aes.o: .\Libraries\CMSIS\Include\core_cmFunc.h
 .\output\stm32f4xx_cryp_aes.o: .\Libraries\CMSIS\Include\core_cmSimd.h
-.\output\stm32f4xx_cryp_aes.o: .\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\output\stm32f4xx_cryp_aes.o: D:\Software\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 .\output\stm32f4xx_cryp_aes.o: .\User\stm32f4xx_conf.h
 .\output\stm32f4xx_cryp_aes.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 .\output\stm32f4xx_cryp_aes.o: .\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
