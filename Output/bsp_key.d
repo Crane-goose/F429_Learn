@@ -41,3 +41,4 @@
 .\output\bsp_key.o: User\bsp_exit.h
 .\output\bsp_key.o: User\bsp_key.h
 .\output\bsp_key.o: User\bsp_led.h
+.\output\bsp_key.o: User\bsp_systick.h

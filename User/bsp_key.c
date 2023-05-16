@@ -17,8 +17,7 @@ void Key_GPIO_Config(void)
 
 }
 
-
-
+/*°´¼ü¼ì²â*/
 uint8_t Key_Detect(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
 {
 	if (GPIO_ReadInputDataBit(GPIOx, GPIO_Pin) == 1) {

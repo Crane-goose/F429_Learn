@@ -41,3 +41,4 @@
 .\output\mian.o: User\bsp_exit.h
 .\output\mian.o: User\bsp_key.h
 .\output\mian.o: User\bsp_led.h
+.\output\mian.o: User\bsp_systick.h
